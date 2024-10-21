@@ -214,7 +214,7 @@ article p {
         margin-top: 20px;
     }
     
-    /*NEWS*/
+/*NEWS*/
     .news-contents{
         flex-direction: column;
     }
@@ -222,7 +222,7 @@ article p {
     aside{
         width: 100%;
     }
-    #news .page-title{
+#news .page-title{
         margin-top: 30px;
     }
     aside{
