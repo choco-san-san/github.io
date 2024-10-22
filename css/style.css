@@ -265,6 +265,13 @@ input[type="email"] {
     width: 100%;
     max-width: 240px;
 }
+#massage{
+    background:rgba(255.255.255,.5);
+    border:1px #fff solid;
+    border-radius:5px;
+    padding:10px;
+    font-size:1rem;
+}
 textarea {
     width: 100%;
     max-width: 480px;
@@ -275,13 +282,7 @@ input[type="submit"] {
     cursor: pointer;
     line-height: 1;
 }
-#massage{
-    background:rgba(255.255.255,.5);
-    border:1px #fff solid;
-    border-radius:5px;
-    padding:10px;
-    font-size:1rem;
-}
+
 /*店舗情報・地図*/
 #location{
     padding: 4% 0;
