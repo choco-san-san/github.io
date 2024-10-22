@@ -254,7 +254,10 @@ article p {
     .big-box img{
         height: auto;
     }      
-   
+
+    
+}
+
     /*MENU*/
     .menu-content{
         margin-top: 20%;
@@ -271,7 +274,8 @@ article p {
         max-width: 100%;
     }
 
-/*店舗情報・地図*/
+/*店舗情報・地図/SNS/
+
 #location .wrapper,
 #sns .wrapper{
     flex-direction: column;
@@ -284,6 +288,8 @@ article p {
 .sns-box {
     margin-bottom: 30px;
 }
+}
+
 article{
     width: 60%;
     order: 2;
@@ -411,4 +417,4 @@ iframe{
 .sns box{
     width: 30%;
 }
-}
+
