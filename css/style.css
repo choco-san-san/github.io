@@ -283,6 +283,13 @@ input[type="submit"] {
     display: flex;
     justify-content: space-between;
 }
+#massage{
+    background:rgba(255.255.255,.5);
+    border:1px #fff solid;
+    border-radius:5px;
+    padding:10px;
+    font-size:1rem;
+}
 .location-info{
     width: 22%;
 }
