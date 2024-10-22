@@ -82,7 +82,7 @@ img{
     background-position: center top;
 }
 #home{
-    background-image: url(https://github.com/choco-san-san/github.io/blob/main/main-bg.jpg?raw=true);
+    background-image: url(../images/main-bg.jpg);
     min-height: 100vh;
 }
 #home .page-title{
@@ -91,7 +91,7 @@ img{
 /* NEWS
 ------------------------*/
 #news {
-    background-image: url(https://github.com/choco-san-san/github.io/blob/main/news-bg.jpg?raw=true);
+    background-image: url(../images/news-bg.jpg);
     height: 270px;
     margin-bottom: 40px;
 }
@@ -170,6 +170,9 @@ article p {
     border-bottom: 2px #0bd solid;
     font-weight: normal;
 }
+aside p{
+    padding: 12px 10px;
+}
 .sub-menu{
     margin-bottom: 60px;
     list-style: none;
@@ -184,15 +187,10 @@ article p {
 }
 .sub-menu a:hover{
     color: #0bd;
+}  
+article{
+    width: 60%;
 }
-/*モバイル版
----------------------------
---*/
-
-@media(max-width:600px){
-    h1{
-     color: #0bd;
-    }
 article{
         width: 60%;
         order: 2;
@@ -313,7 +311,7 @@ iframe{
 .sns box{
     width: 30%;
 }
-}
+
 /*モバイル版
 ----------------------------------*/
 @media(max-width:600px){
@@ -373,17 +371,16 @@ iframe{
     .post-cat{
         margin-left: 80px;
     }
-
+/*MENU*/
+.menu-content{
+    margin-top: 20%;
+}
 .big-box{
     grid-column: auto;
     grid-row: auto;
 }
 .big-box image{
     height: auto;
-}
- /*MENU*/
- .menu-content{
-    margin-top: 20%;
 }
 .big-box{
     grid-column: auto;
@@ -402,6 +399,7 @@ input[type="email"]
 textarea{
     max-width: 100%;
 }
+
 /*店舗情報・地図/sns*/
 #location .wrapper,
 #sns .wrapper{
@@ -414,26 +412,5 @@ textarea{
 }
 .sns-box {
     margin-bottom: 30px;
-} 
-
 }
-
-
-
-
-
-
-
-
-   
-    
-
-
-
-
-
-
-
-
-
-
+}
