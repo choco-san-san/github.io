@@ -185,7 +185,7 @@ article p {
 .sub-menu a:hover{
     color: #0bd;
 }
-}
+
 /*モバイル版
 ----------------------------------*/
 @media(max-width:600px){
@@ -247,7 +247,7 @@ article p {
     .post-cat{
         margin-left: 80px;
     }
-}
+  }
 
     /*MENU*/
     .menu-content{
